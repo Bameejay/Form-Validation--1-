@@ -51,16 +51,7 @@ inputBox.onkeyup = function() {
   }
 }
 
-// showPassword.addEventListener("click", function() {
-//   const type = passwordField.getAttribute === "password" ? "text" : "password";
-//   passwordField.setAttribute("type", type);
-// })
-
-function myFunction (){
-  let x = document.getElementById("password");
-  if (x.type === 'password') {
-    x.type = 'text'
-  } else {
-    x.type = 'password';
-  }
-}
+showPassword.addEventListener("click", function() {
+  const type = passwordField.getAttribute === "password" ? "text" : "password";
+  passwordField.setAttribute("type", type);
+})
