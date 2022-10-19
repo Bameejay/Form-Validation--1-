@@ -4,7 +4,7 @@ let capital = document.getElementById("capital");
 let number = document.getElementById("number");
 let length = document.getElementById("length");
 const passwordField = document.querySelector("#password")
-const showPassword = document.qu("#show-Password") 
+const showPassword = document.querySelector("#show-Password") 
 
 inputBox.onfocus = function() {
   document.getElementById("message").style.display = "block";
